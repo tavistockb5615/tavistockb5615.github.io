@@ -1,0 +1,27 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Tav Bades's Blog</title>
+	<link href="http://Tav Bade.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://Tavbade.github.io/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://Tavistockb5615.github.io/blog</id>
+	<author>
+		<name>Tav Bade</name>
+		<email>tavistockb5615@afsenyc.org</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="http://tavistock5615.github.io{{ post.url }}"/>
+			<updated>{{ 9/20/18 | date_to_xmlschema }}</updated>
+			<id>http://tavbade.github.io{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
