@@ -1,6 +1,6 @@
 ---
-layout:post
-title "Tav's week 5"
+layout: post
+title: "Tav's week 5"
 date: 2018-10-18
 ---
 
