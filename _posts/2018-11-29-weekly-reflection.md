@@ -2,6 +2,7 @@
 layout: post
 title: "Tav Bade's Week 10"
 date: 2018-11-29
+---
 
 7. Which function application the following contact below? 
 
